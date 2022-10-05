@@ -6,7 +6,7 @@
 
   if(!empty($email) && !empty($message)){
     if(filter_var($email, FILTER_VALIDATE_EMAIL)){
-      $receiver = "quentin.gourier@outlook.fr"; //enter that email address where you want to receive all messages
+      $receiver = "Equo.externe@equo-construction.fr"; //enter that email address where you want to receive all messages
       $subject = "From: $name <$email>";
       $body = "Name: $name\nEmail: $email\nMessage:\n$message\n";
       $sender = "From: $email";
